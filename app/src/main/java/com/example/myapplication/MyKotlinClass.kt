@@ -5,9 +5,4 @@ public  class MyKotlinClass {
         return "Yes Kotlin function called !!"
     }
 }
-object MyNDKClass {
-    init {
-        System.loadLibrary("myapplication")
-    }
-    external fun callKotlinFunction(): String
-}
+
